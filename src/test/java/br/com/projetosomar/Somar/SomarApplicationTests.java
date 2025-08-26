@@ -1,10 +1,10 @@
-package br.com.somar.projeto.projeto_somar;
+package br.com.projetosomar.Somar;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProjetoSomarApplicationTests {
+class SomarApplicationTests {
 
 	@Test
 	void contextLoads() {

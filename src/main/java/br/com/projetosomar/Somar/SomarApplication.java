@@ -1,13 +1,13 @@
-package br.com.somar.projeto.projeto_somar;
+package br.com.projetosomar.Somar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjetoSomarApplication {
+public class SomarApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjetoSomarApplication.class, args);
+		SpringApplication.run(SomarApplication.class, args);
 	}
 
 }
