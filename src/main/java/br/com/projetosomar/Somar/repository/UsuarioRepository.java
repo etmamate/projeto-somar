@@ -1,5 +1,8 @@
 package br.com.projetosomar.Somar.repository;
 
-public class UsuarioRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+public interface UsuarioRepository extends JpaRepository{
     
 }
