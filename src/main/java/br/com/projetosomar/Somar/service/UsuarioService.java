@@ -16,8 +16,13 @@ public class UsuarioService {
         this.usuarioRepository = usuarioRepository;
     }
 
-    public List<Usuario> getAllUsuarios(){
-        return usuarioRepository.findAll();
-    }
 
+    //Listar usuarios salvos
+    public List<Usuario> listarUsuarios(){return usuarioRepository.findAll();}
+
+    //Salvar novos usuarios
+    public Usuario salvarUsuario(Usuario usuario){return usuarioRepository.save(usuario);}
+
+    //Deletar usuario
+    public void delete(Long id){usuarioRepository.deleteById(id);}
 }
